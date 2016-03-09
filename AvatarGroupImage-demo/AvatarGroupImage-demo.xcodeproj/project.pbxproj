@@ -15,6 +15,8 @@
 		C12B88621C8FF96000202F79 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C12B88601C8FF96000202F79 /* LaunchScreen.storyboard */; };
 		C12B886C1C8FF98F00202F79 /* AvatarGroupImageView.m in Sources */ = {isa = PBXBuildFile; fileRef = C12B886B1C8FF98F00202F79 /* AvatarGroupImageView.m */; };
 		C12B88701C8FFAB000202F79 /* UIImage+Category.m in Sources */ = {isa = PBXBuildFile; fileRef = C12B886F1C8FFAB000202F79 /* UIImage+Category.m */; };
+		C12B887D1C9023A100202F79 /* 效果图1.png in Resources */ = {isa = PBXBuildFile; fileRef = C12B887B1C9023A100202F79 /* 效果图1.png */; };
+		C12B887E1C9023A100202F79 /* 效果图2.png in Resources */ = {isa = PBXBuildFile; fileRef = C12B887C1C9023A100202F79 /* 效果图2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +34,8 @@
 		C12B886B1C8FF98F00202F79 /* AvatarGroupImageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AvatarGroupImageView.m; sourceTree = "<group>"; };
 		C12B886E1C8FFAB000202F79 /* UIImage+Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Category.h"; sourceTree = "<group>"; };
 		C12B886F1C8FFAB000202F79 /* UIImage+Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Category.m"; sourceTree = "<group>"; };
+		C12B887B1C9023A100202F79 /* 效果图1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "效果图1.png"; sourceTree = "<group>"; };
+		C12B887C1C9023A100202F79 /* 效果图2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "效果图2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +68,8 @@
 		C12B88511C8FF96000202F79 /* AvatarGroupImage-demo */ = {
 			isa = PBXGroup;
 			children = (
+				C12B887B1C9023A100202F79 /* 效果图1.png */,
+				C12B887C1C9023A100202F79 /* 效果图2.png */,
 				C12B886D1C8FFAB000202F79 /* category */,
 				C12B88691C8FF98F00202F79 /* AvatarGroupImageViw */,
 				C12B88551C8FF96000202F79 /* AppDelegate.h */,
@@ -164,7 +170,9 @@
 			files = (
 				C12B88621C8FF96000202F79 /* LaunchScreen.storyboard in Resources */,
 				C12B885F1C8FF96000202F79 /* Assets.xcassets in Resources */,
+				C12B887D1C9023A100202F79 /* 效果图1.png in Resources */,
 				C12B885D1C8FF96000202F79 /* Main.storyboard in Resources */,
+				C12B887E1C9023A100202F79 /* 效果图2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +336,7 @@
 				C12B88681C8FF96000202F79 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
