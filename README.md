@@ -4,8 +4,8 @@
 
 #创建群组头像组
 
+-
 - (UIImageView *)createImageViewWithCanvasView:(UIImageView *)canvasView withImageViewsCount:(NSInteger)count {
-- 
     NSMutableArray *imageViewsArr=[NSMutableArray array];
     for (NSInteger i=0; i<count; i++) {
         UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(0.0, 0.0, 50.0, 50.0)];
