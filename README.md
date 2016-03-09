@@ -15,7 +15,6 @@
 
         [imageViewsArr addObject:imageView];
     }
-
     //使用AvatarGroupImageView
     UIImageView *avatarImageView=[[AvatarGroupImageView alloc] avtarGroupOnImageView:canvasView subImageViews:imageViewsArr marginValue:0.5];
     [avatarImageView setCenter:self.view.center];
