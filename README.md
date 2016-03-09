@@ -5,6 +5,7 @@
 #创建群组头像组
 
 - (UIImageView *)createImageViewWithCanvasView:(UIImageView *)canvasView withImageViewsCount:(NSInteger)count {
+- 
     NSMutableArray *imageViewsArr=[NSMutableArray array];
     for (NSInteger i=0; i<count; i++) {
         UIImageView *imageView=[[UIImageView alloc]initWithFrame:CGRectMake(0.0, 0.0, 50.0, 50.0)];
@@ -16,8 +17,10 @@
     }
     
     //使用AvatarGroupImageView
+    
     UIImageView *avatarImageView=[[AvatarGroupImageView alloc] avtarGroupOnImageView:canvasView subImageViews:imageViewsArr marginValue:0.5];
     [avatarImageView setCenter:self.view.center];
     [avatarImageView setBounds:CGRectMake(0.0, 0.0, 100.0, 100.0)];
     return avatarImageView;
+    
 }
