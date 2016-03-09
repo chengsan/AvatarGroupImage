@@ -3,7 +3,7 @@
 在实现文件中使用avatarGroupImage如下
 
 #使用方法
-//创建群组头像组
+    //创建群组头像组
     - (UIImageView *)createImageViewWithCanvasView:(UIImageView *)canvasView withImageViewsCount:(NSInteger)count {
         NSMutableArray *imageViewsArr=[NSMutableArray array];
         for (NSInteger i=0; i<count; i++) {
@@ -12,7 +12,7 @@
             [imageView.layer setMasksToBounds:YES];
             [imageView setImage:[[UIImage imageFormColor:UICOLOR_FROM_RGB([[[self.dataArr[i] valueForKey:@"bgColor"]                       valueForKey:@"R"] integerValue], [[[self.dataArr[i] valueForKey:@"bgColor"] valueForKey:@"G"]                              integerValue], [[[self.dataArr[i] valueForKey:@"bgColor"] valueForKey:@"B"] integerValue], 1)                              frame:imageView.bounds] imageWithTitle:[self.dataArr[i] valueForKey:@"name"] fontSize:15.0]];
             [imageViewsArr addObject:imageView];
-    }
+        }
     
         //使用AvatarGroupImageView
         UIImageView *avatarImageView=[[AvatarGroupImageView alloc] avtarGroupOnImageView:canvasView subImageViews:imageViewsArr marginValue:0.5];
@@ -22,7 +22,6 @@
     }
 
 #联系我
-
    微信公众号:  iOSDevTeam
    
    Email: shenguanhua123@gmail.com
