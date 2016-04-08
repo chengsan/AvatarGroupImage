@@ -21,6 +21,7 @@
         return avatarImageView;
     }
 
+
 #效果图
 ![image](https://github.com/shenAlexy/AvatarGroupImage/blob/master/AvatarGroupImage-demo/AvatarGroupImage-demo/效果图1.png)  ![image](https://github.com/shenAlexy/AvatarGroupImage/blob/master/AvatarGroupImage-demo/AvatarGroupImage-demo/效果图2.png) 
 
